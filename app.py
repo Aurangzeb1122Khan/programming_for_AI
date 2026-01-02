@@ -428,31 +428,10 @@ if st.session_state.data is not None:
 else:
     st.markdown('<div class="glass-card">', unsafe_allow_html=True)
     st.info("👈 Please upload a Restaurant Sales CSV file from the sidebar to begin!")
-    st.markdown("""
-    ### 📋 What This App Does:
     
-    1. **Data Overview** - View raw data statistics and missing values
-    2. **Clean Data** - PhD-level cleaning with:
-       - Duplicate removal
-       - Missing value imputation (median for numeric, mode for categorical)
-       - Outlier detection and capping (IQR method)
-    3. **EDA & Insights** - Statistical analysis, distributions, correlations
-    4. **ML Training** - Train multiple models (Linear, Random Forest, Gradient Boosting)
-    5. **Export** - Download cleaned data and reports
-    
-    ### 🎓 PhD-Level Techniques Used:
-    - IQR method for outlier detection
-    - Median imputation (robust to outliers)
-    - Mode imputation for categorical data
-    - StandardScaler for feature normalization
-    - Ensemble methods (Random Forest, Gradient Boosting)
-    - Cross-validation ready
-    """)
-    st.markdown('</div>', unsafe_allow_html=True)
-
 st.markdown("""
 <div style='margin-top:20px; padding:15px; background: rgba(255,255,255,0.5); border-radius:12px; text-align:center'>
 <strong>🍽️ Restaurant Sales Data Cleaning Studio</strong><br>
-Made with ❤️ by Enigjes | PhD-Level Data Science Pipeline
+Made by Aurangzeb 
 </div>
 """, unsafe_allow_html=True)
