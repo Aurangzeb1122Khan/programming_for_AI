@@ -90,7 +90,7 @@ st.markdown("""
       <div style='color:#636e72; font-size:1.1rem;'>PhD-Level Data Cleaning, EDA & Machine Learning Pipeline</div>
     </div>
     <div style='text-align:right'>
-      <div style='font-size:0.9rem; color:#2d3436;'>Made with ❤️ by Enigjes</div>
+      <div style='font-size:0.9rem; color:#2d3436;'>Made by Aurangzeb and has NO GF </div>
     </div>
   </div>
 </div>
